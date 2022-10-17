@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>LC Festas e Eventos.</title>
+  </head>
+
+<!--Baara de navegação-->
+  <body>
+    <header>
+      <nav class="navbar">
+
+        <div class="logo">
+          <img class="img-logo" src="img/logo1.png" alt="logo">
+          <h3 id="LC">FESTAS E EVENTOS</h3>
+        </div>
+
+        <ul class="nav-menu">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#galeria">Galeria</a></li>
+          <li><a href="#contatos">Contatos</a></li>
+        </ul>
+
+        <div class="hamburguer">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+
+      </nav>
+    </header>
+<!--Baara de navegação-->
+
+
+    <br>
+    <br>
+    <br>
+    <h2 id="sobre">Sobre</h2>
+    <br>
+
+<!--Sobre-->
+    <div class="text">
+      <p>
+        Olá sou Luiz Carlos,
+        <br />
+        Eu e minha esposa Cleusa Corcino, somos fundadores da LC festa e
+        eventos. <br>
+        nascí em Passos, MG. Sou apaixonado pela culinária mineira desde
+        criança. <br>
+        trabalhamos como Cozinheiros em Eventos como Buffet, Casamentos,
+        Aniversários. <br>
+        preparamos todos os tipos de pratos Mineiros, atendemos Ribeirão Preto e
+        Região. <br>
+        vamos até você, faça seu orçamento e atenderemos com todo prazer.
+      </p>
+    </div>
+    <br>
+      <img class="donos" src="img/up.jpg" alt="donos">
+    </ul>
+<!--Sobre-->
+
+    
+    <br>
+    <br>
+    <br>
+    <h2 id="galeria">Galeria</h2>
+    <br>
+
+<!--Galeria-->
+        <main>
+          <div class="gallery-container">
+            <a href="img/evento1.jpg" class="gallery-items">
+              <img src="img/evento1.jpg" alt="comida1">
+            </a>
+            <a href="img/evento2.jpg" class="gallery-items">
+              <img src="img/evento2.jpg" alt="comida2">
+            </a>
+            <a href="img/evento3.jpg" class="gallery-items">
+              <img src="img/evento3.jpg" alt="comida3">
+            </a>
+            <a href="img/evento4.jpg" class="gallery-items">
+              <img src="img/evento4.jpg" alt="comida4">
+            </a>
+            <a href="img/evento5.jpg" class="gallery-items">
+              <img src="img/evento5.jpg" alt="comida5">
+            </a>
+            <a href="img/evento6.jpg" class="gallery-items">
+              <img src="img/evento6.jpg" alt="comida6">
+            </a>
+            <a href="img/evento7.jpg" class="gallery-items">
+              <img src="img/evento7.jpg" alt="comida7">
+            </a>
+            <a href="img/evento8.jpg" class="gallery-items">
+              <img src="img/evento8.jpg" alt="comida8">
+            </a>
+            <a href="img/evento9.jpg" class="gallery-items">
+              <img src="img/evento9.jpg" alt="comida9">
+            </a>
+            <a href="img/evento10.jpg" class="gallery-items">
+              <img src="img/evento10.jpg" alt="comida10">
+          </a>
+        </div>
+        </main>
+<!--Galeria-->
+
+    <br>
+    <br>
+    <h2>Peça um orçamento</h2>
+    <br>
+    <br>
+
+<!--Formulário-->
+    <section>
+      <form action="https://api.staticforms.xyz/submit" method="POST">
+        <label>Nome</label>
+        <input type="text" name="nome" placeholder="Digite seu nome" autocomplete="off" required/>
+        <label>Email ou Telefone</label>
+        <input type="text" name="email" placeholder="Digite seu email ou telefone" autocomplete="none"required/>
+        <label>Mensagem</label>
+        <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+        <button type="submit">Enviar</button>
+
+        <input type="hidden" name="accessKey" value="492f48d8-3052-470c-9721-f625426cb622"/>
+        <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/sucesso.html"/>
+      </form>
+    </section>
+<!--Formulário-->
+
+    <br>
+    <br>
+    <h2 id="contatos">Contatos</h2>
+    <br>
+    <br>
+
+<!-- Rodapé do site -->
+  <footer>
+    <ul class="social-icons">
+    <li class="li"><a href="https://www.facebook.com/profile.php?id=100026338849736" target="_blank"><ion-icon name="logo-facebook" class="f"></ion-icon></a></li>
+    <li class="li"><a href="https://instagram.com/lc_festaseventos?igshid=YmMyMTA2M2Y=" target="_blank"><ion-icon name="logo-instagram" class="i"></ion-icon></a></li>
+    <li class="li"><a href="https://wa.me/5516993790658?text=Olá gostaria de solicitar um orçamento." target="_blank"><ion-icon name="logo-whatsapp" class="w"></ion-icon></a></li>
+    </ul>
+  </footer>
+
+  <footer>
+    <p>© 2023 LC Festas e Eventos. Ribeirão Preto,SP, todos os direitos reservados.</p>
+  </footer>
+
+
+  
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="script.js"></script>
+</html>
