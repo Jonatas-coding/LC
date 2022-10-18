@@ -328,12 +328,11 @@ a, h3 {
         }
 
         section {
-            width: 350px;
+            width: 360px;
         }
 
         .gallery-items:hover {
             transform: none;
         }
-
     }
 /* Responsividade */
