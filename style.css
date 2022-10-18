@@ -40,8 +40,8 @@ header  {
 
 .donos {
     margin: 5px;
-    height: 700px;
-    width: 500px;
+    height: 650px;
+    width: 450px;
     object-fit: cover;
     box-shadow: 5px 5px 5px black;
     max-width: 100%;
@@ -145,7 +145,7 @@ a, h3 {
         justify-content: center;
         background-color: black;
         flex-direction: column;
-        width: 500px;
+        width: 450px;
         padding: 10px 45px;
         box-shadow: 5px 5px 5px black;
         margin: 5px;
@@ -263,6 +263,12 @@ a, h3 {
 
 
 /* Responsividade */
+    @media (max-width:780px) {
+        .text {
+            font-size: 17PX;
+        }
+    }
+        
     @media (max-width:660px) {
         .hamburguer {
             display: block;
@@ -285,11 +291,12 @@ a, h3 {
             left: -100%;
             top: 180px;
             gap: 0;
+            background-image: url(img/Madera.jpg);
             border-radius: 0 0 10px 10px;
             text-align: center;
             flex-direction: column;
             width: 50%;
-            height: 75%;
+            height: 70%;
             transition: 0.3s;
             z-index: 1;
             justify-content: space-around;
@@ -315,8 +322,18 @@ a, h3 {
         footer .social-icons li .w {
             color: lime;
         }
+
+        .donos {
+            width: 350px;
+        }
+
+        section {
+            width: 350px;
+        }
+
+        .gallery-items:hover {
+            transform: none;
+        }
+
     }
 /* Responsividade */
-
-
-  
