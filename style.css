@@ -139,6 +139,10 @@ a, h3 {
 
 
 /*Formulário de Contato*/
+    #contatos {
+        text-align: center;
+    }
+
     section {
         display: flex;
         align-items: center;
