@@ -299,7 +299,7 @@ a, h3 {
             text-align: center;
             flex-direction: column;
             width: 50%;
-            height: 90%;
+            height: 75%;
             transition: 0.3s;
             z-index: 1;
             justify-content: space-around;
