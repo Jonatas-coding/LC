@@ -74,11 +74,11 @@ a, li {
 
 
 .navbar {
-    min-height: 70px;
+    min-height: 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 40px;
+    padding: 30px 10px;
 }
 
 .nav-menu {
@@ -142,7 +142,6 @@ a, h3 {
     #contatos {
         text-align: center;
     }
-
     section {
         display: flex;
         align-items: center;
@@ -150,7 +149,7 @@ a, h3 {
         background-color: black;
         flex-direction: column;
         width: 450px;
-        padding: 10px 45px;
+        padding: 10px 50px;
         box-shadow: 5px 5px 5px black;
         margin: 2px;
         max-width: 100%;
@@ -183,7 +182,7 @@ a, h3 {
     }
 
     form textarea {
-        font-size: 18px;
+        font-size: 20px;
         padding: 5px;
         outline: none;
         border: 0;
@@ -223,7 +222,7 @@ a, h3 {
     footer {
         display: flex;
         position: relative;
-        padding: 50px 50px;
+        padding: 50px 10px;
         justify-content: center;
         align-items: center;
     }
@@ -293,7 +292,7 @@ a, h3 {
         .nav-menu {
             position: absolute;
             left: -100%;
-            top: 180px;
+            top: 160px;
             gap: 0;
             background-image: url(img/Madera.jpg);
             border-radius: 0 0 10px 10px;
@@ -309,6 +308,7 @@ a, h3 {
         .nav-menu.active {
             left: 0;
         }
+
 
         .img-logo {
         width: 100px;
@@ -338,5 +338,6 @@ a, h3 {
         .gallery-items:hover {
             transform: none;
         }
+
     }
 /* Responsividade */
