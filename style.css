@@ -292,7 +292,7 @@ a, h3 {
         .nav-menu {
             position: absolute;
             left: -100%;
-            top: 160px;
+            top: 150px;
             gap: 0;
             background-image: url(img/Madera.jpg);
             border-radius: 0 0 10px 10px;
